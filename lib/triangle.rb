@@ -14,7 +14,7 @@ class Triangle
     #equilateral: all sides are the same length side != side  
     #isosceles: 2 sides are the same length (only other option)
     
-    #all sides must be > 0
+    #each side must be > 0
   end   
   
   class TriangleError < StandardError
