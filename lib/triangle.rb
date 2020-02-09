@@ -12,7 +12,7 @@ class Triangle
     #scalene: no sides are the same length side == side 
     if side_1 == side_2 && side_2 == side_3 #equilateral: all sides are the same length side != side  :equilateral
     #isosceles: 2 sides are the same length (only other option)
-    
+    end 
     #each side must be >= 0, sum of 2 side length > 1 side length  
   end   
   
