@@ -9,10 +9,12 @@ class Triangle
     
   end 
   
-  def kind #all sides must be > 0
+  def kind 
     #scalene: no sides are the same length  
     #equilateral: all sides are the same length 
     #isosceles: 2 sides are the same length 
+    
+    #all sides must be > 0
   end   
   
   class TriangleError < StandardError
