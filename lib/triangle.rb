@@ -12,7 +12,7 @@ class Triangle
      
     if @side_1 <= 0 || @side_2 <= 0 ||@side_3 <= 0 #each side must be >= 0
       raise TriangleError
-    elsif @side_1 + @side_2 > @side_3 || @side_2 <= 0 ||@side_3 <= 0 #sum of 2 side length > 1 side length 
+    elsif @side_1 + @side_2 <= @side_3 || @side_1 + @side_3 <= @side_2 || @side_2 + @side_3<= @side_1 #sum of 2 side length <= 1 side length 
       raise TriangleError
     end 
      
