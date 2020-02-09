@@ -12,7 +12,7 @@ class Triangle
   def kind 
     #scalene: no sides are the same length  
     #equilateral: all sides are the same length 
-    #isosceles: 
+    #isosceles: 2 sides are the same length 
   end   
   
   class TriangleError < StandardError
