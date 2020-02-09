@@ -18,7 +18,9 @@ class Triangle
       :isosceles
     end 
     
-    #each side must be >= 0, sum of 2 side length > 1 side length  
+    if @side_1 <= 0 || @side_2 <= 0 ||@side_3 <= 0 || #each side must be >= 0, sum of 2 side length > 1 side length 
+    end
+    
   end   
   
   class TriangleError < StandardError
