@@ -9,7 +9,7 @@ class Triangle
     
   end 
   
-  def kind 
+  def kind #all sides must be > 0
     #scalene: no sides are the same length  
     #equilateral: all sides are the same length 
     #isosceles: 2 sides are the same length 
