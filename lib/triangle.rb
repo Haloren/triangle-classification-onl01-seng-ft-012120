@@ -19,7 +19,7 @@ class Triangle
     end 
     
     if @side_1 <= 0 || @side_2 <= 0 ||@side_3 <= 0 #each side must be >= 0, sum of 2 side length > 1 side length 
-      TriangleError 
+      raise TriangleError 
     end
     
   end   
