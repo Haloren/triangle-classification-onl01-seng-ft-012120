@@ -10,9 +10,9 @@ class Triangle
   end 
   
   def kind 
-    #scalene: no sides are the same length  
-    #equilateral: all sides are the same length 
-    #isosceles: 2 sides are the same length 
+    #scalene: no sides are the same length side == side 
+    #equilateral: all sides are the same length side != side  
+    #isosceles: 2 sides are the same length (only other option)
     
     #all sides must be > 0
   end   
