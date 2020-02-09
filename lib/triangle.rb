@@ -1,6 +1,6 @@
 class Triangle
   
-  attr_accessor :equilateral, :isosceles, :scalene
+  attr_accessor :equilateral, :scalene, :isosceles
   
   def initialize(side_1, side_2, side_3)
     @side_1 = side_1
@@ -9,9 +9,11 @@ class Triangle
   end 
   
   def kind 
-    #scalene: no sides are the same length side == side 
+     
     if @side_1 == @side_2 && @side_2 == @side_3 #equilateral: all sides are the same length side != side  
       :equilateral
+    elsif @side_1 != @side_2 && @side_2 != @side_3 #scalene: no sides are the same length side == side
+      :scalene
     #isosceles: 2 sides are the same length (only other option)
     end 
     #each side must be >= 0, sum of 2 side length > 1 side length  
