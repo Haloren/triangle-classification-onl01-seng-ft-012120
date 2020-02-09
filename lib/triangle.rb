@@ -10,7 +10,7 @@ class Triangle
   
   def kind 
     #scalene: no sides are the same length side == side 
-    if self.side_1 == self.side_2 && self.side_2 == self.side_3 #equilateral: all sides are the same length side != side  
+    if @side_1 == @side_2 && @side_2 == @side_3 #equilateral: all sides are the same length side != side  
       :equilateral
     #isosceles: 2 sides are the same length (only other option)
     end 
